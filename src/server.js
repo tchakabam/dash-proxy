@@ -1,3 +1,5 @@
+/* Copyright 2017 Stephan Hesse <tchakabam@gmail.com> */
+
 const http = require('http');
 const URL = require('url');
 

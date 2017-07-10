@@ -1,3 +1,5 @@
+/* Copyright 2017 Stephan Hesse <tchakabam@gmail.com> */
+
 const ISOBoxer = require('codem-isoboxer');
 const log = require('./log');
 const toArrayBuffer = require('./to-array-buffer');
