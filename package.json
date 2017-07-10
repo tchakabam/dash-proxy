@@ -1,0 +1,26 @@
+{
+  "name": "dash-proxy",
+  "version": "0.0.0",
+  "description": "HTTP proxy for MPEG-DASH resources ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "server": "node src/server.js"
+  },
+  "keywords": [
+    "MPEG",
+    "DASH",
+    "MP4",
+    "HTTP",
+    "proxy"
+  ],
+  "author": "Stephan Hesse <tchakabam@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "codem-isoboxer": "^0.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  }
+}
